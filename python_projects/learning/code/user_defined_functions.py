@@ -1,4 +1,7 @@
+from datetime import datetime
 
+print('\nDate and Time: ')
+print(f'\t{datetime.now()}')
 
 #---defining function
 #def = define function
