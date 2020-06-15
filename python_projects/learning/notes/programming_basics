@@ -41,3 +41,16 @@ output = ['1', '1.5', 'A', 'B', 'C', 'D', 'a', 'b', 'c', 'd']
 def my_function(): = define function_name():
 
 my_function() = call function
+
+
+
+{---Adding Arguments to function---}
+
+def my_function(str1, str2): = added arguments
+
+my_function("Argument 1", "Second Argument") = call with arguments
+
+
+{---Default Functions---}
+
+def print_something(name = "name", age = "unknown") = giving the arguments default values
