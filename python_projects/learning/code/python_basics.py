@@ -100,7 +100,7 @@ new = re.sub('[.,\']', '', string)
 print(new)
 new = re.sub('[.,\'a-zB-Z]', '', string)
 print(new)
-new = re.sub('[.,\'A-Z+" "]', '', string) # +" " removes spaces
+new = re.sub('[.,\'A-Z" "]', '', string) # " " removes spaces
 print(new)
 
 string = string + "6 298 - 345"
