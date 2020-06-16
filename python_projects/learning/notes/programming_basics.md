@@ -52,3 +52,26 @@
 
   def print_something(name = "name", age = "unknown") = giving the arguments default values
 }
+
+###### 6. ( Keyword Arguments ) {
+
+  print_something(None, 27) = 'none' is the same as null. if you were to just enter 27, then 27 would print for the name. using none first makes 'none' print for  the name and age gets the correct value.
+
+  or use: [this is the actual 'keyword argument']
+  print_something(age = 27) = allows you to only pass one value and you can make sure it gets printed in the right slot
+}
+
+####### 7. ( Infinite Arguments ) {
+
+  def print_people(*people): = tells function that there is not a pre-determined number of things that will be passed to it.
+  
+  then use for loop to set 'people' list and print()
+  then call function with any number of inputs/arguments
+}
+
+######## 8. ( Return values from functions ) {
+
+  in .py file
+}
+
+DISCONTINUED
