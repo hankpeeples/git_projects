@@ -69,9 +69,13 @@
   then call function with any number of inputs/arguments
 }
 
-######## 8. ( Return values from functions ) {
+8 -> 10 are in .py file
 
-  in .py file
+########### 11. ( Importing Libraries into a script ) {
+
+  import re = re is the regex library
+  re is already included in python so you dont need to install it first
+  regex (aka Regular Expression) is it's own mini programming language
+  re.sub() = .sub is a substitute function?
+  re.sub('[A-Z]', '', string) = inside the first single quote use brackets to give a rule. A-Z removes all capital letters. If you wanted to replace the capital letters with something else you would put that rule in the second single quote. 'string' is the item you want these rules applied to
 }
-
-DISCONTINUED

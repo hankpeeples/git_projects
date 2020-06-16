@@ -51,3 +51,59 @@ math1 = do_math(5, 7)
 math2 = do_math(4, 36)
 
 print(f'First sum is {math1} and second sum is {math2}')
+
+#if, elif, else statements
+print("\n--------- 9. If, elif, else statements")
+check = True
+
+if check == False:
+    print("It is False")
+elif check == "Yo":
+    print("Wassup")
+elif check == "Hamburger":
+    print("Burger time bitch")
+else:
+    print("It is True")
+
+#for/while loops
+print("\n---------- 10. For/While Loops")
+print("- For Loop")
+numbers = [1, 2, 3, 4, 5]
+
+for item in numbers:
+    print(item)
+
+print("-- While Loop")
+run = True
+current = 1
+
+while run:
+    if current == 20:
+        run = False
+
+    else:
+        print(current)
+        current += 1
+
+#import libraries
+print("\n----------- 11. Importing Libraries")
+import re #regex
+
+string = "'I AM NOT YELLING', she said. Though we knew it was not true."
+print(string)
+
+new = re.sub('[A-Z]', '', string) 
+print(new)
+new = re.sub('[a-z]', '', string)
+print(new)
+new = re.sub('[.,\']', '', string)
+print(new)
+new = re.sub('[.,\'a-zB-Z]', '', string)
+print(new)
+new = re.sub('[.,\'A-Z+" "]', '', string) # +" " removes spaces
+print(new)
+
+string = string + "6 298 - 345"
+print(string)
+new = re.sub('[^0-9]', '', string) # ^0-9 removes everything except numbers
+print(new)
