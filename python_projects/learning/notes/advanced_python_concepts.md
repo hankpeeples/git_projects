@@ -21,5 +21,5 @@
 ### 3. ( Importing Modules from relative paths ) {
 
     Should't define classes in main file; gets messy.
-    classes folder should have file called __init__.py 
+    classes folder should have file called __init__.py (no idea why) 
 }
