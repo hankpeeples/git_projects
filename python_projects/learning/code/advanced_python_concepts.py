@@ -1,9 +1,16 @@
 import random
+from advanced_classes.enemy import Enemy # importing class from folder
 
 
 #breaking out of while loops / continuing / classes
 print("\n- 1. Breaking out of while loops / Continuing / Classes / Instance Variables / ")
 
+
+enemy = Enemy(200, 60)
+print("HP:", enemy.get_hp())
+
+
+'''
 class Enemy: #class = blueprint for objects(variables kinda)
     hp = 200
 
@@ -26,6 +33,7 @@ enemy2 = Enemy(75, 90)
 enemy2.get_atk()
 enemy2.get_hp()
 
+'''
 '''
 
 playerhp = 260
